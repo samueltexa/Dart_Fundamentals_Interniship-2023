@@ -32,7 +32,7 @@ void main(){
   print("Modulus of x and y is: ${x % y}");
 
   //Maps
-  Map<int,String> mymap = {1:"one", 2:"two",3:"Three"};
+  Map<int,String> mymap = {1:"one",2:"two",3:"Three"};
   print("My map is: $mymap");
   
   //Lists
