@@ -32,12 +32,15 @@ String getScore(){
   String first = getUserInput();
   print("Enter second score");
   String second = getUserInput();
-  print("Fist score is: $first and second score is $seconf");
-  return Address;
+  print("Fist score is: $first and second score is $second");
+  String totalScore  = "${first + second}";
+  print("Total score is: $totalScore");
+  return totalScore;
 }
 
 void main(){
   getuserName();
   getuserAge();
   getuserAddress();
+  getScore();
 }
