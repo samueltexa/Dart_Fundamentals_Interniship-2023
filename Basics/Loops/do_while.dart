@@ -3,7 +3,8 @@ main(){
   do{
     print(x);
   }
-  while(x<=10){
+  while(x<=10);
+  {
     x++;
   }
 }
