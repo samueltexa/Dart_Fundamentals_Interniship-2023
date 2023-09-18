@@ -1,4 +1,5 @@
 int x = 3;//global variable
+int y = 3;
 void myFunc(){
 	print(x);
 
